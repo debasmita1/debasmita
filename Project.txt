@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			*{
+				padding:0;
+				margin:900 px;
+			}
+			body
+			{
+				font-family:arial;
+				font-size:16px;
+				font-color:black;
+			}
+			.main
+			{
+				height:100px;
+			}
+			.container
+			{
+				background-color:White;
+				float:left;
+				padding: 10px;
+			}
+			
+			.box
+			{
+				float:right;
+			}
+			
+
+			span
+			{
+				border-right:1px solid;
+				padding-right:10px;
+   
+			}
+
+
+
+			.banner
+			{
+				background-color:White;
+				align:center;
+				width:100%;
+				Height:250 px;
+				
+			}
+			.divisionLeft
+			{
+				    float: left;
+					width: 70%;
+					background-color: Grey;
+					height: 300px;
+					color:Red;
+					font-size:22px;
+					padding: 2px;
+			}
+
+			.divisionRight
+			{
+			    float: right;
+				width:28%;
+				height: 300px; 
+				background: Grey;
+				padding: 2px;
+			}	
+			
+			.images
+			{
+				border: 5px solid Red;
+				border-radius: 10px;
+				opacity: 0.5;
+			}
+			
+			.division
+			{
+				background-color: White;
+			}
+			footer 
+			{
+				background-color: Yellow;
+				text-align: center;
+				color: Black;
+				padding:10px;
+			}	
+			section:after 
+			{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			
+
+		</style>
+	</head>
+	<body>
+	<header>
+	<div class="main">
+		<div class="container">
+			<IMG SRC="logo.jpg" ALT="some text" WIDTH=200 HEIGHT=150>
+		</div>
+		<div class="box">
+			<div class="social">
+			
+					<a href="www.facebook.com"><img src="facebook.png" alt="facebook" width=100px height=50px></a>
+					<a href="www.twitter.com"><img src="tweet.png" alt="twitter" width=100px height=50px></a>
+					<a href="www.youtube.com"><img src="yt.png" alt="youtube" width=100px height=50px></a>
+			</div>
+			<p>
+			<div class="info" >
+				<a href="#" style="color:red"><span>Home</span></a>
+				<a href="#" style="color:red"><span>About</span></a>
+				<a href="#" style="color:red"><span>Services</span></a>
+				<a href="#" style="color:red">Contact</a>
+			</div>		
+			</p>
+		</div>
+	</div>
+	</header>
+			<div class="banner">
+				<IMG SRC="banner1.jpg" ALT="some text" WIDTH=1350 HEIGHT=100>
+			</div>
+<section>
+	<div class="division">	
+		<div class ="divisionLeft">
+			<h1>Welcome</h1>
+			<p style="color:Green;font-size:14px">HTML and CSS Tutorial</p>
+		</div>
+		<div class ="divisionRight">
+			<div style="text-align:center">
+				<ul>
+					<li>Apple</li>
+					<li>Mango</li>
+				</ul>
+				<ol>
+					<li>Guava</li>
+					<li>Orange</li>
+				</ol>
+				<ol type="A">
+					<li>Banana</li>
+					<li>Cherry</li>
+				</ol>
+				<h2>Image<h2>
+				
+				<div class ="Image">
+					<Img class="images" src="bird.jpg" WIDTH=200 HEIGHT=50>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+<p>Copyright@prolifics.com</p>
+</footer>
+	</body>
+</html>
+		
+	
